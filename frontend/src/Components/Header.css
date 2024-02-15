@@ -1,0 +1,89 @@
+.head {
+    display: flex;
+}
+
+.logo {
+    margin-left: 70px;
+    width: 280px;
+    height: 80px;
+
+}
+
+.logo1 {
+    margin-left: 100px;
+    width: 250px;
+    height: 50px;
+}
+
+.p1 {
+    display: inline-block;
+}
+
+.para {
+    margin-left: 380px;
+    color: green;
+    font-family: 'Montserrat Alternates';
+    font-size: 16px;
+}
+
+.nav2 {
+    margin-right: 50px;
+    padding: 10px;
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+/* Media query for screen sizes between 320px and 768px */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .head {
+        flex-direction: column;
+        /* Change flex direction to column for smaller screens */
+        align-items: center;
+        /* Center-align items */
+    }
+
+    .logo {
+        margin-left: 0;
+        /* Remove left margin */
+        margin-bottom: 20px;
+        /* Add bottom margin for spacing */
+        width: 80%;
+        /* Adjust width to fill container */
+        max-width: 320px;
+        /* Limit maximum width */
+    }
+
+    .logo1 {
+        margin-left: 0;
+        /* Remove left margin */
+    }
+
+    .p1 {
+        display: block;
+        /* Change display to block for full width */
+        text-align: center;
+        /* Center-align text */
+    }
+
+    .para {
+        margin-left: 0;
+        /* Remove left margin */
+        margin-bottom: 20px;
+        /* Add bottom margin for spacing */
+        text-align: center;
+        /* Center-align text */
+    }
+
+    .nav2 {
+        margin-right: 0;
+        /* Remove right margin */
+        margin-bottom: 20px;
+        /* Add bottom margin for spacing */
+        width: 90%;
+        /* Adjust width to fill container */
+        max-width: 200px;
+        /* Limit maximum width */
+        text-align: center;
+        /* Center-align text */
+    }
+}

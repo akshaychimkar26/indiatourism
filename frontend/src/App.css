@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Montserrat Alternates';
+}
+
+.hr {
+    width: 90%;
+    margin-left: 50px;
+    border-style: dashed;
+}
+
+.text {
+    margin-top: 30px;
+    margin-left: 100px;
+    text-align: justify;
+    width: 85%;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates';
+}
+
+b {
+    color: brown;
+}
+
+.flexmain {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 20px;
+    background: #FAF7F7;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+}
+
+.i1 {
+    width: 250px;
+    height: 210px;
+}
+
+.i2 {
+    width: 250px;
+    height: 150px;
+}
+
+.name {
+    font-family: 'Montserrat Alternates';
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.names {
+    font-family: 'Montserrat Alternates';
+    text-align: left;
+    font-size: 18px;
+}
+
+.name2 {
+    background-color: #DFDADA;
+    color: red;
+    text-align: center;
+}
+
+.duration {
+    background-image: url("https://www.theindiatourism.com/images/india-trip.jpg");
+    height: 350px;
+}
+
+.h2 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Montserrat Alternates';
+    color: yellow;
+}
+
+.circlediv {
+    margin: 50px
+}
+
+.circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Montserrat Alternates';
+    font-size: 20px;
+    background-color: white;
+    margin-left: 50px;
+}
+
+.hr1 {
+    font-family: 'Montserrat Alternates';
+    width: 40px;
+    margin-left: 40px;
+}
+
+.fleximg {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.img {
+    width: 380px;
+    background: #FAF7F7;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+}
+
+.text0 {
+    margin-top: 30px;
+    text-align: justify;
+    width: 85%;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates';
+}
+
+.flcf {
+    display: flex;
+}
+
+.flcf1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text11 {
+    margin-left: 100px;
+    text-align: justify;
+    width: 85%;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates';
+}
+
+.text12 {
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: justify;
+    width: 85%;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates';
+}
+
+.text112 {
+    text-align: justify;
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates';
+}
+
+.divin {
+    margin-left: 45px;
+}
+
+/* Media query for screen sizes between 320px and 768px */
+/* Media query for screen sizes between 320px and 768px */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Montserrat Alternates';
+}
+
+.hr {
+    width: 90%;
+    margin-left: 50px;
+    border-style: dashed;
+}
+
+.text {
+    margin-top: 30px;
+    margin-left: 100px;
+    text-align: justify;
+    width: 85%;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates';
+}
+
+b {
+    color: brown;
+}
+
+.flexmain {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 20px;
+    background: #FAF7F7;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+}
+
+.i1 {
+    width: 250px;
+    height: 210px;
+}
+
+.i2 {
+    width: 250px;
+    height: 150px;
+}
+
+.name {
+    font-family: 'Montserrat Alternates';
+    text-align: center;
+    font-size: 18px;
+}
+
+.names {
+    font-family: 'Montserrat Alternates';
+    text-align: left;
+    font-size: 18px;
+}
+
+.name2 {
+    background-color: #DFDADA;
+    color: red;
+    text-align: center;
+}
+
+.duration {
+    background-image: url("https://www.theindiatourism.com/images/india-trip.jpg");
+    height: 350px;
+}
+
+.h2 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Montserrat Alternates';
+    color: yellow;
+}
+
+.circlediv {
+    margin: 50px
+}
+
+.circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Montserrat Alternates';
+    font-size: 20px;
+    background-color: white;
+    margin-left: 50px;
+}
+
+.hr1 {
+    font-family: 'Montserrat Alternates';
+    width: 40px;
+    margin-left: 40px;
+}
+
+.fleximg {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.img {
+    width: 380px;
+    background: #FAF7F7;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+}
+
+.text0 {
+    margin-top: 30px;
+    text-align: justify;
+    width: 85%;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates';
+}
+
+.flcf {
+    display: flex;
+}
+
+.flcf1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text11 {
+    margin-left: 100px;
+    text-align: justify;
+    width: 85%;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates';
+}
+
+.text12 {
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: justify;
+    width: 85%;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates';
+}
+
+.text112 {
+    text-align: justify;
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates';
+}
+
+.divin {
+    margin-left: 45px;
+}
+
+.im1 {
+    width: 100%;
+    margin-top: 20px;
+    /* Adjust margin-top as needed */
+    text-align: center;
+    /* Center-align the image */
+}
+
+/* Media query for screen sizes between 320px and 768px */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .h1 {
+        margin: 10px;
+        font-size: 24px;
+    }
+
+    .hr {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .text {
+        margin: 35px;
+        width: 80%;
+    }
+
+    .flexmain {
+        margin: 10px;
+    }
+
+    .i1,
+    .i2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .name,
+    .names {
+        font-size: 16px;
+    }
+
+    .name2 {
+        font-size: 18px;
+    }
+
+    .duration {
+        height: 750px;
+    }
+
+    .circlediv {
+        margin: 20px;
+
+    }
+
+    .circle {
+        width: 80px;
+        height: 80px;
+        font-size: 16px;
+        margin: 25px;
+        padding-top: 18px
+    }
+
+    .fleximg {
+        margin: 20px;
+    }
+
+    .img {
+        width: 80%;
+    }
+
+    .text0,
+    .text11,
+    .text12,
+    .text112 {
+        margin: 10px;
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .divin {
+        margin-left: 20px;
+    }
+
+    .im1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .flcf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .width {
+        width: 300px;
+    }
+
+}

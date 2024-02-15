@@ -1,0 +1,24 @@
+.carousell {
+    width: 150%;
+    height: 400px;
+}
+
+.slide {
+    width: 1300px;
+    margin-left: 21px;
+}
+
+/* Media query for screen sizes between 320px and 768px */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .carousell {
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+        /* Hide horizontal overflow */
+    }
+
+    .slide {
+        width: 90%;
+        margin-left: 5px;
+    }
+}

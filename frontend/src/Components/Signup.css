@@ -1,0 +1,61 @@
+/* Main Container */
+.su {
+    background-color: #7fb3d5;
+    /* Light Blue Background Color */
+    width: 300px;
+    margin: 50px auto 100px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    /* Enhanced Shadow */
+    font-family: 'Roboto', sans-serif;
+    /* Stylish Font */
+}
+
+/* Labels */
+.su label {
+    display: block;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/* Inputs */
+.su input {
+    width: calc(100% - 20px);
+    /* Adjusted Width */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Button */
+.su button {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    /* Gradient Background */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    /* Smooth Transition */
+}
+
+.su button:hover {
+    background: linear-gradient(90deg, #ff7e5f, #ff9966);
+    /* Gradient on Hover */
+}
+
+/* Links */
+.su a {
+    color: white;
+}
+
+/* Media Query */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .su {
+        width: 80%;
+    }
+}
